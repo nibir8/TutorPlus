@@ -1,5 +1,3 @@
-Readme File
-
 
 
 For Gooogle login:
@@ -10,65 +8,39 @@ play services API is installed. If it is already installed make sure that it is
 the latest version.
 
 
-
 2.Generate the Json file
-
 
 
 Use the Java keytool to get the SHA-1 fingerprint
  
-f
-
-or Windows,
-
-
+ 
+for Windows,
 
 keytool -list -v -keystore "%USERPROFILE%\\.android\\debug.keystore" -alias
 androiddebugkey -storepass android -keypass android
 
 
 
-for Mac
-
-,
+for Mac,
 
 keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey
 -storepass android -keypass android
 
 
-
-use this link to get the json file
-
+use this link to get the json file <https://developers.google.com/identity/sign-in/android/start-integrating>
 
 
-<https://developers.google.com/identity/sign-in/android/start-integrating>
+enter the package name as package com.dal.group7.tutorplus.ui.activities;
 
 
-
-enter the package name as
-
-package com.dal.group7.tutorplus.ui.activities;
-
-
-
-paste the SHA1 fingerprint and click ENABLE google sign in. Generate the
- configuration file to download our google-services.json
+paste the SHA1 fingerprint and click ENABLE google sign in. Generate the configuration file to download our google-services.json
 
 
 
 
+For Running the app:
 
-
-
-
-
-
-For Running the app
-
-:
-1.Please follow the following steps
-
-
+Please follow the following steps
 
 1)Clean Build
 
@@ -78,9 +50,5 @@ For Running the app
 
 3)Build APK
 
-
-2.U
-
-use this APK to run the app
 
 
